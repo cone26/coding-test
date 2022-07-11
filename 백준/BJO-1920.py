@@ -1,4 +1,5 @@
-# import sys
+# 수 찾기
+import sys
 # first_list=[]
 # second_list=[]
 # for i in range(2):
