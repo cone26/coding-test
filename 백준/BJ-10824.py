@@ -1,0 +1,4 @@
+
+# 네 수
+[a,b,c,d] = input().split()
+print(int(a + b) + int(c + d))
