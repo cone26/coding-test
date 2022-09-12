@@ -1,6 +1,5 @@
 # 819
 from collections import Counter
-from itertools import count
 import re
 
 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
