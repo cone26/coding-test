@@ -1,6 +1,5 @@
 # dfs 와 bfs
 from collections import defaultdict
-from dis import disco
 
 
 N,M,V = map(int,input().split())
@@ -8,7 +7,9 @@ graph = defaultdict(list)
 for _ in range(M):
     a,b = map(int,input().split())
     graph[a].append(b)
+    graph[a].sort()
     graph[b].append(a)
+    graph[b].sort()
 
 def recursive_dfs(v,discoverd = []):
     discoverd.append(v)
