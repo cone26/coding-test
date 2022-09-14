@@ -25,4 +25,4 @@ def numIslands(grid):
                     count += 1        
         return count
 
-numIslands(gird)
+numIslands(grid)
